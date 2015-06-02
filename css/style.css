@@ -1,3 +1,26 @@
+h1, h2, h3, h4, h5, h6, p {
+  font-family: "casper-icons", "Open Sans", sans-serif; }
 
+#posts .phenix blockquote {
+  border-left: 5px solid #F67938; }
+#posts .phenix h4:hover {
+  color: #F67938; }
+#posts .elixir blockquote {
+  border-left: 5px solid #47126a; }
+#posts .elixir h4:hover {
+  color: #47126a; }
+
+.post h4 {
+  color: #4A4A4A;
+  letter-spacing: 1px;
+  font-weight: bold; }
+.post p {
+  color: #3A4145; }
+.post span {
+  color: #d5dbde;
+  text-transform: uppercase; }
+.post .divider {
+  margin-top: 25px;
+  margin-bottom: 5px; }
 
 /*# sourceMappingURL=style.css.map */

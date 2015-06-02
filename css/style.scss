@@ -1,0 +1,43 @@
+h1,h2,h3,h4,h5,h6,p{
+  font-family: "casper-icons", "Open Sans", sans-serif;
+}
+
+$phenix: #F67938;
+$elixir: #47126a;
+
+#posts{
+  .phenix{
+    blockquote{
+      border-left: 5px solid $phenix;
+    }
+    h4:hover{
+      color: $phenix;
+    }
+  }
+  .elixir{
+    blockquote{
+      border-left: 5px solid $elixir;
+    }
+    h4:hover{
+      color: $elixir;
+    }
+  }
+}
+.post{
+  h4{
+    color: #4A4A4A;
+    letter-spacing: 1px;
+    font-weight: bold;
+  }
+  p{
+    color: #3A4145;
+  }
+  span{
+    color: #d5dbde;
+    text-transform: uppercase;
+  }
+  .divider{
+    margin-top: 25px;
+    margin-bottom: 5px;
+  }
+}
