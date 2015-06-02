@@ -7,6 +7,7 @@ $elixir: #47126a;
 
 #posts{
   .phenix{
+    background-color: $phenix;
     blockquote{
       border-left: 5px solid $phenix;
     }
@@ -15,12 +16,17 @@ $elixir: #47126a;
     }
   }
   .elixir{
+    background-color: $elixir;
     blockquote{
       border-left: 5px solid $elixir;
     }
     h4:hover{
       color: $elixir;
     }
+  }
+  .divider{
+    margin-top: 25px;
+    margin-bottom: 5px;
   }
 }
 .post{
@@ -35,9 +41,5 @@ $elixir: #47126a;
   span{
     color: #d5dbde;
     text-transform: uppercase;
-  }
-  .divider{
-    margin-top: 25px;
-    margin-bottom: 5px;
   }
 }
