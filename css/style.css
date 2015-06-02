@@ -1,22 +1,45 @@
 h1, h2, h3, h4, h5, h6, p {
   font-family: "casper-icons", "Open Sans", sans-serif; }
 
-#posts .phenix {
-  background-color: #F67938; }
-  #posts .phenix blockquote {
-    border-left: 5px solid #F67938; }
-  #posts .phenix h4:hover {
-    color: #F67938; }
-#posts .elixir {
-  background-color: #47126a; }
-  #posts .elixir blockquote {
-    border-left: 5px solid #47126a; }
-  #posts .elixir h4:hover {
-    color: #47126a; }
-#posts .divider {
-  margin-top: 25px;
-  margin-bottom: 5px; }
+#posts {
+  margin-top: 10%; }
+  #posts .phenix {
+    background-color: #F67938; }
+    #posts .phenix blockquote {
+      border-left: 5px solid #F67938; }
+    #posts .phenix h4:hover {
+      color: #F67938; }
+  #posts .elixir {
+    background-color: #47126a; }
+    #posts .elixir blockquote {
+      border-left: 5px solid #47126a; }
+    #posts .elixir h4:hover {
+      color: #47126a; }
+  #posts .divider {
+    margin-top: 25px;
+    margin-bottom: 5px; }
+  #posts #button-post {
+    padding-bottom: 7%; }
+    #posts #button-post p {
+      margin-top: 5px;
+      color: #d5dbde; }
+    #posts #button-post .phenix {
+      float: left; }
+    #posts #button-post .elixir {
+      float: right; }
 
+@media (max-width: 600px) {
+  #posts #button-post .phenix {
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 10px; }
+  #posts #button-post .elixir {
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    display: block; } }
 .post h4 {
   color: #4A4A4A;
   letter-spacing: 1px;
