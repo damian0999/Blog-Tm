@@ -5,8 +5,23 @@ h1,h2,h3,h4,h5,h6,p{
 $phenix: #F67938;
 $elixir: #47126a;
 
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+main {
+  flex: 1 0 auto;
+}
+//header
+header{
+  img{
+    width: 100%;
+  }
+}
+//posts
 #posts{
-  margin-top: 10%;
+  margin-top: 3%;
   .phenix{
     background-color: $phenix;
     blockquote{
@@ -14,6 +29,11 @@ $elixir: #47126a;
     }
     h4:hover{
       color: $phenix;
+      -webkit-transition: 0.3s;
+      -moz-transition: 0.3s;
+      -o-transition: 0.3s;
+      -ms-transition: 0.3s;
+      transition: 0.3s;
     }
   }
   .elixir{
@@ -23,6 +43,11 @@ $elixir: #47126a;
     }
     h4:hover{
       color: $elixir;
+      -webkit-transition: 0.3s;
+      -moz-transition: 0.3s;
+      -o-transition: 0.3s;
+      -ms-transition: 0.3s;
+      transition: 0.3s;
     }
   }
   .divider{
@@ -67,6 +92,11 @@ $elixir: #47126a;
     color: #4A4A4A;
     letter-spacing: 1px;
     font-weight: bold;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    -ms-transition: 0.3s;
+    transition: 0.3s;
   }
   p{
     color: #3A4145;
@@ -85,6 +115,7 @@ $elixir: #47126a;
 // footer
 .page-footer{
   background-color: #F67938 !important;
+  margin-top: 10% !important;
   .content{
     h5{
       letter-spacing: 1px;
