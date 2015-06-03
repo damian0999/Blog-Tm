@@ -9,9 +9,6 @@ body {
 main {
   flex: 1 0 auto; }
 
-header img {
-  width: 100%; }
-
 #posts {
   margin-top: 3%; }
   #posts .phenix {
