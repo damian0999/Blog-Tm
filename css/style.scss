@@ -1,11 +1,10 @@
-h1,h2,h3,h4,h5,h6,p{
-  font-family: "casper-icons", "Open Sans", sans-serif;
-}
 
 $phenix: #F67938;
 $elixir: #47126a;
 
 #posts{
+  font-family: "casper-icons", "Open Sans" sans-serif;
+
   margin-top: 10%;
   .phenix{
     background-color: $phenix;
@@ -84,6 +83,7 @@ $elixir: #47126a;
 }
 // footer
 .page-footer{
+  font-family: "casper-icons", "Open Sans" sans-serif;
   background-color: #F67938 !important;
   .content{
     h5{
@@ -106,4 +106,35 @@ $elixir: #47126a;
     }
   }
 }
+
+#page-post{
+  margin-top: 6%;
+  font-family: 'Merriweather', serif !important;
+  h3,h4{
+    color: #4A4A4A;
+    letter-spacing: 1px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  span{
+    color: #d5dbde;
+    text-transform: uppercase; 
+  }
+  p{
+    font-size: 18px;
+    line-height: 30px;
+    span{
+      text-transform: none;
+      color: #3A4145;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      display: block;
+    }
+  }
+}
+
+
+
+
+
 

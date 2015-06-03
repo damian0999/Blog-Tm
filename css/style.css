@@ -1,7 +1,5 @@
-h1, h2, h3, h4, h5, h6, p {
-  font-family: "casper-icons", "Open Sans", sans-serif; }
-
 #posts {
+  font-family: "casper-icons", "Open Sans" sans-serif;
   margin-top: 10%; }
   #posts .phenix {
     background-color: #F67938; }
@@ -54,6 +52,7 @@ h1, h2, h3, h4, h5, h6, p {
   background-color: #F67938; }
 
 .page-footer {
+  font-family: "casper-icons", "Open Sans" sans-serif;
   background-color: #F67938 !important; }
   .page-footer .content h5 {
     letter-spacing: 1px;
@@ -66,5 +65,26 @@ h1, h2, h3, h4, h5, h6, p {
     line-height: 20px !important; }
     .page-footer .footer-copyright p {
       color: white; }
+
+#page-post {
+  margin-top: 6%;
+  font-family: 'Merriweather', serif !important; }
+  #page-post h3, #page-post h4 {
+    color: #4A4A4A;
+    letter-spacing: 1px;
+    margin-top: 20px;
+    margin-bottom: 20px; }
+  #page-post span {
+    color: #d5dbde;
+    text-transform: uppercase; }
+  #page-post p {
+    font-size: 18px;
+    line-height: 30px; }
+    #page-post p span {
+      text-transform: none;
+      color: #3A4145;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      display: block; }
 
 /*# sourceMappingURL=style.css.map */
