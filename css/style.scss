@@ -76,3 +76,34 @@ $elixir: #47126a;
     text-transform: uppercase;
   }
 }
+// social button
+.fixed-action-btn{
+  .btn-floating{
+    background-color: #F67938;
+  }
+}
+// footer
+.page-footer{
+  background-color: #F67938 !important;
+  .content{
+    h5{
+      letter-spacing: 1px;
+      color: white;
+    }
+    p{
+      color: white;
+    }
+    li{
+      a{
+        color: white !important;
+      }
+    }
+  }
+  .footer-copyright{
+    line-height: 20px !important;
+    p{
+      color: white;
+    }
+  }
+}
+
