@@ -77,14 +77,14 @@
   #page-post span {
     color: #d5dbde;
     text-transform: uppercase; }
-  #page-post p {
+  #page-post p span {
     font-size: 18px;
-    line-height: 30px; }
-    #page-post p span {
-      text-transform: none;
-      color: #3A4145;
-      padding-top: 10px;
-      padding-bottom: 10px;
-      display: block; }
+    line-height: 30px;
+    font-weight: 300;
+    text-transform: none;
+    color: #3A4145;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: block; }
 
 /*# sourceMappingURL=style.css.map */

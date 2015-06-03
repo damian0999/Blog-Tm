@@ -121,9 +121,10 @@ $elixir: #47126a;
     text-transform: uppercase; 
   }
   p{
-    font-size: 18px;
-    line-height: 30px;
     span{
+      font-size: 18px;
+      line-height: 30px;
+      font-weight: 300;
       text-transform: none;
       color: #3A4145;
       padding-top: 10px;
