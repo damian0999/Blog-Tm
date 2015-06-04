@@ -11,49 +11,59 @@ main {
 
 #posts {
   margin-top: 3%; }
-  #posts .phenix {
-    background-color: #F67938; }
-    #posts .phenix blockquote {
-      border-left: 5px solid #F67938; }
-    #posts .phenix h4:hover {
-      color: #F67938;
-      -webkit-transition: 0.3s;
-      -moz-transition: 0.3s;
-      -o-transition: 0.3s;
-      -ms-transition: 0.3s;
-      transition: 0.3s; }
-  #posts .elixir {
-    background-color: #47126a; }
-    #posts .elixir blockquote {
-      border-left: 5px solid #47126a; }
-    #posts .elixir h4:hover {
-      color: #47126a;
-      -webkit-transition: 0.3s;
-      -moz-transition: 0.3s;
-      -o-transition: 0.3s;
-      -ms-transition: 0.3s;
-      transition: 0.3s; }
+  #posts .phenix blockquote {
+    border-left: 5px solid #F67938; }
+  #posts .phenix h4:hover {
+    color: #F67938;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    -ms-transition: 0.3s;
+    transition: 0.3s; }
+  #posts .elixir blockquote {
+    border-left: 5px solid #47126a; }
+  #posts .elixir h4:hover {
+    color: #47126a;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    -ms-transition: 0.3s;
+    transition: 0.3s; }
   #posts .divider {
     margin-top: 25px;
     margin-bottom: 5px; }
-  #posts #button-post {
-    padding-bottom: 7%; }
-    #posts #button-post p {
+  #posts .button-post {
+    padding-top: 8%; }
+    #posts .button-post a {
+      color: #d5dbde;
+      -webkit-transition: 0.3s;
+      -moz-transition: 0.3s;
+      -o-transition: 0.3s;
+      -ms-transition: 0.3s;
+      transition: 0.3s; }
+    #posts .button-post a:hover {
+      color: #7D8B91;
+      -webkit-transition: 0.3s;
+      -moz-transition: 0.3s;
+      -o-transition: 0.3s;
+      -ms-transition: 0.3s;
+      transition: 0.3s; }
+    #posts .button-post p {
       margin-top: 5px;
       color: #d5dbde; }
-    #posts #button-post .phenix {
+    #posts .button-post .phenix {
       float: left; }
-    #posts #button-post .elixir {
+    #posts .button-post .elixir {
       float: right; }
 
 @media (max-width: 600px) {
-  #posts #button-post .phenix {
+  #posts .button-post .phenix {
     float: none;
     margin-left: auto;
     margin-right: auto;
     display: block;
     margin-bottom: 10px; }
-  #posts #button-post .elixir {
+  #posts .button-post .elixir {
     float: none;
     margin-left: auto;
     margin-right: auto;
