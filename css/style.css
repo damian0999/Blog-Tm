@@ -73,12 +73,24 @@ main {
   color: #d5dbde;
   text-transform: uppercase; }
 
-.fixed-action-btn .btn-floating {
-  background-color: #F67938; }
-
 .page-footer {
   background-color: #F67938 !important;
   margin-top: 10% !important; }
+  .page-footer .content .social-group {
+    line-height: 100px; }
+    .page-footer .content .social-group .social {
+      background-color: #225B9D;
+      color: white;
+      border-radius: 100%;
+      width: 60px;
+      height: 60px;
+      text-align: center;
+      line-height: 60px;
+      border: none; }
+    .page-footer .content .social-group .linkedin {
+      background-color: #3C30CE; }
+    .page-footer .content .social-group .google {
+      background-color: #3A4B9D; }
   .page-footer .content h5 {
     letter-spacing: 1px;
     color: white; }
