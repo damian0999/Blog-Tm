@@ -13,36 +13,42 @@ body {
 main {
   flex: 1 0 auto;
 }
-//
+//navbar
+nav{
+  background-color: transparent;
+  box-shadow: none;
+  position: absolute;
+  li{
+    a{
+      font-size: 18px; 
+      letter-spacing: 1px;
+      -webkit-transition: 0.3s;
+      -moz-transition: 0.3s;
+      -o-transition: 0.3s;
+      -ms-transition: 0.3s;
+      transition: 0.3s;
+    }
+  }
+  li:hover{
+    background-color: transparent !important;
+    a{
+      font-size: 20px;
+      -webkit-transition: 0.3s;
+      -moz-transition: 0.3s;
+      -o-transition: 0.3s;
+      -ms-transition: 0.3s;
+      transition: 0.3s;
+    }
+  }
+}
+
+//header
 header{
-  background-color: $phenix;
+  /* background-color: $phenix;
   width: 100%;
-  height: 400px;
-  nav{
-    background-color: transparent;
-    box-shadow: none;
-    li{
-      a{
-        font-size: 18px; 
-        letter-spacing: 1px;
-        -webkit-transition: 0.3s;
-        -moz-transition: 0.3s;
-        -o-transition: 0.3s;
-        -ms-transition: 0.3s;
-        transition: 0.3s;
-      }
-    }
-    li:hover{
-      background-color: transparent;
-      a{
-        font-size: 20px;
-        -webkit-transition: 0.3s;
-        -moz-transition: 0.3s;
-        -o-transition: 0.3s;
-        -ms-transition: 0.3s;
-        transition: 0.3s;
-      }
-    }
+  height: 400px; */
+  img{
+    width: 100%;
   }
 }
 //posts
