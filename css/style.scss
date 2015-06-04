@@ -149,27 +149,17 @@ header{
 
 // footer
 .page-footer{
-  /* background-color: #F67938 !important; */
   background-image: radial-gradient( circle at 50% 50%, #F67938 29%, #EF4734 120%) !important;
   margin-top: 10% !important;
   .content{
     .social-group{
-      line-height: 100px;
       .social{
-        background-color: #225B9D;
         color: white;
-        border-radius: 100%;
-        width: 60px;
-        height: 60px;
-        text-align: center;
-        line-height: 60px;
-        border: none;
+        padding-top: 10px;
+        display: block;
       }
-      .linkedin{
-        background-color: #3C30CE;
-      }
-      .google{
-        background-color: #3A4B9D;
+      p{
+        text-align: left;
       }
     }
     h5{
