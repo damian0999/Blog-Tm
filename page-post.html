@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+  <title>Tomasz Balon</title>
+
+  <!-- jQuery UI -->
+  <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+  <!-- materialize -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.96.1/css/materialize.min.css">
+  <!-- font -->
+  <link rel="stylesheet" type="text/css" href="/assets/css/screen.css?v=b1c6d66630" />
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic|Open+Sans:700,400" />
+  <link href='http://fonts.googleapis.com/css?family=Merriweather:400,300' rel='stylesheet' type='text/css'>
+  <!-- font awesome -->
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <!-- my CSS -->
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+  <main>
+    <div id="page-post">
+      <div class="container">
+        <div class="row">
+          <div class='col s12 offset-m1 m10 offset-l1 l10'>
+            <h3>Building an Elixir Web App</h3>
+            <span>19 JANUARY 2015 on elixir</span>
+            <p>
+              <span>
+                Over the past few months I've been building a small internal application at work. I've been using Elixir, Ecto and Phoenix and it's been an absolute blast. I thought it would be useful to put together a "lessons leared" blog post about the techniques I've found helpful using these tools to build a database-backed web app.
+              </span>
+              <span>
+              This post is not intended as an introducion to any of the these tools. I assume some knowledge of Elixir, Ecto and Phoenix.
+              </span>
+              <span>
+              Note: while Elixir is post-1.0, Ecto and Phoenix are not. Things move fast and this post may quickly become out of date
+            </span>
+            </p>
+            <h4>Pipelines are your friend</h4>
+            <p>
+              <span>
+                Phoenix has the concept of pipelines which are a series of plugs (think rack middleware) that will be executed in order. You can send all requests for a given scope of URLs through a pipeline.
+              </span>
+              <span>
+                In my application I have a pipeline for the browser, a pipeline for authentication and a pipeline for API requests. I can mix and match these pipelines to accept browser requests with or without authentication and API requests with or without authentication. My router.ex looks something like this
+              </span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="page-footer">
+    <div class="container content">
+      <div class="row">
+        <div class="col s12 m6 l6 social-group">
+          <h5>Visit my profile</h5>
+          <div class="col s1 m1 l1">
+            <i class="fa fa-facebook-square fa-2x social"></i>
+          </div>
+          <div class="col s11 m11 l11">
+            <p>facebook/tomaszbalon.pl</p>
+          </div>
+          <div class="col s1 m1 l1">
+            <i class="fa fa-linkedin-square fa-2x social"></i>
+          </div>
+          <div class="col s11 m11 l11">
+            <p>linkedin/balontomasz.pl</p>
+          </div>
+        </div>
+        <div class="col s12 m6 l6">
+          <h5 class="white-text">Do you want know more ?</h5>
+          <ul>
+            <li><a href="#!">Link 1</a></li>
+            <li><a href="#!">Link 2</a></li>
+            <li><a href="#!">Link 3</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+        <div class="row">
+          <div class="col s12 m12 l12">
+            <p class='center valign'>&copy Copyright 2015. All rights reserved</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- jQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <!-- jQuery UI -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+  <!-- materialize -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.96.1/js/materialize.min.js"></script>
+  
+</body>
+</html>
